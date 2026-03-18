@@ -50,7 +50,7 @@ DB_NAME=shortener
 ### 3. Запустить через docker-compose
 
 ```bash
-docker-compose up --build
+docker-compose up -d --build
 ```
 
 Сервис будет доступен на `http://localhost:7893`
